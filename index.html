@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Add React -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+        <!-- Add Bootstrap and Jquery-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <!-- Add css stylesheet-->
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        <script src="nasa.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="col-sm-5">
+                <h1><b>Spacestagram<b><br><small>Brought to you by NASA's image API</small></h1>
+            
+                <img id="pic" src="" class="img-rounded" alt="NASA Picture Of The Day" width="100%">
+                <h2 id="title"></h2>
+                <h3><span id="date"></span></h3>
+            </div>
+            
+            <div class="col-sm-5">
+                <h1>Astronomy Picture of the Day</h2>
+                <h2 id="apodTitle"></h2>
+                <h3><span id="apodDate"></span></h3>
+                <img id="apodPic" src="" class="img-rounded" alt="NASA Picture Of The Day" width="100%">
+                <p id="apodExplanation"></p>
+            </div>
+        </div>
+    </body>
+</html>
+
